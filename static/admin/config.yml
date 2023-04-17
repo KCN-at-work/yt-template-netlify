@@ -36,6 +36,13 @@ collections:
                   { label: "Text", name: "text", widget: "text" },
                 ],
             }
+      - file: "content/om-klubben/index.md"
+        label: "Om klubben"
+        name: "om-klubben"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+
       - file: "content/about/index.md"
         label: "About"
         name: "about"
