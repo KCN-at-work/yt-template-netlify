@@ -49,3 +49,33 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/bli-medlem/index.md"
+        label: "Bli medlem"
+        name: "blimedlem"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/kalender/index.md"
+        label: "Kalender"
+        name: "kalender"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Dato", name: "dato", widget: "DateTime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/styre/index.md"
+        label: "Styre"
+        name: "styre"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+
+      - file: "content/kontakt-oss/index.md"
+        label: "Kontakt oss"
+        name: "kontaktoss"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }

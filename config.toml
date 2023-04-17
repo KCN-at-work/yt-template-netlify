@@ -2,7 +2,11 @@ title = "Skiklubben Skli"
 logo = "skiklubben-skli-logo.jpg"
 
 [menu]
-
+  [[menu.main]]
+    identifier = "aarsmoete"
+    name = "Årsmøte"
+    url = "/aarsmoete"
+    weight = 10
 
   [[menu.main]]
     identifier = "blimedlem"
