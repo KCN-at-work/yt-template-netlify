@@ -41,11 +41,11 @@ collections:
         name: "om-klubben"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-      - file: "content/about/index.md"
-        label: "About"
-        name: "about"
+      - file: "content/aarsmoete/index.md"
+        label: "Årsmøte"
+        name: "aarsmoete"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
