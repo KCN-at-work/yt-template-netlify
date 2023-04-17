@@ -1,14 +1,39 @@
-title = "My New Hugo Site"
+title = "Skiklubben Skli"
+logo = "skiklubben-skli-logo.jpg"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
+    identifier = "aarsmoete"
+    name = "Årsmøte"
+    url = "/aarsmoete"
     weight = 10
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
+    identifier = "blimedlem"
+    name = "Bli medlem"
+    url = "/bli-medlem"
     weight = 20
+
+  [[menu.main]]
+    identifier = "omklubben"
+    name = "Om klubben"
+    url = "/om-klubben"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "kalender"
+    name = "Kalender"
+    url = "/kalender"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "styre"
+    name = "Styre"
+    url = "/styre"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "kontakt-oss"
+    name = "Kontakt oss"
+    url = "/kontakt-oss"
+    weight = 60
